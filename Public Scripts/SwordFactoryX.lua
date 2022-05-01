@@ -1,16 +1,3 @@
-getgenv().Config = {
-    AutoBuy = {
-        Conveyer = true;
-        Molder = true;
-        Polisher = true;
-        Classifier = true;
-        Upgrader = true;
-        Enchanter = true;
-        Appraiser = true;
-    },
-    AutoPrestige = true;
-}
-
 task.spawn(function()
     while task.wait() and getgenv().Config.AutoBuy.Conveyer do
             if game:GetService("Players").LocalPlayer.PlayerGui.MainGui.Upgrades.Conveyor.Purchase.BackgroundColor3 == Color3.fromRGB(31,236,21) then
