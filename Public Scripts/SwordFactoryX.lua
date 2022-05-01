@@ -1,3 +1,6 @@
+print("Script Loaded")
+print("Current Version is 1.0")
+print("Status is Working")
 task.spawn(function()
     while task.wait() and getgenv().Config.AutoBuy.Conveyer do
             if game:GetService("Players").LocalPlayer.PlayerGui.MainGui.Upgrades.Conveyor.Purchase.BackgroundColor3 == Color3.fromRGB(31,236,21) then
