@@ -1,6 +1,9 @@
 print("Script Loaded")
 print("Current Version is 1.0")
 print("Status is Working")
+task.wait(1)
+print("Created by Quantum/TranquilizerDart")
+print("Discord: Quantum#0005")
 task.spawn(function()
     while task.wait() and getgenv().Config.AutoBuy.Conveyer do
             if game:GetService("Players").LocalPlayer.PlayerGui.MainGui.Upgrades.Conveyor.Purchase.BackgroundColor3 == Color3.fromRGB(31,236,21) then
